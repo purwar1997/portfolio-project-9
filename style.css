@@ -1,0 +1,427 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+header {
+  height: 500px;
+  background-color: #3400ff;
+  position: relative;
+}
+
+nav {
+  float: right;
+  margin-right: 50px;
+  margin-top: 25px;
+}
+
+.nav-item {
+  font-size: 18px;
+  color: #ffffff;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.nav-item-active {
+  background-color: #ffffff;
+  color: #5a31fc;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 10px;
+  padding: 5px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logo {
+  margin-top: 50px;
+  margin-left: 60px;
+  cursor: pointer;
+}
+
+.header-text {
+  float: left;
+  margin-top: 60px;
+  margin-left: 60px;
+  color: #ffffff;
+  line-height: 1.7;
+}
+
+.header-text h2 {
+  font-size: 34px;
+}
+
+.header-text p {
+  margin-top: 5px;
+}
+
+.header-image {
+  float: right;
+}
+
+.companies {
+  margin-top: 25px;
+  margin-left: 60px;
+}
+
+.company-items {
+  text-decoration: none;
+  color: #1b1b1b;
+  font-family: "Righteous";
+  font-size: 22px;
+  font-weight: bold;
+  margin-right: 90px;
+  cursor: pointer;
+}
+
+.api {
+  position: relative;
+}
+
+.api-heading {
+  font-size: 35px;
+  font-weight: 800;
+  margin-left: 60px;
+  margin-top: 80px;
+}
+
+.cards {
+  margin-left: 60px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+}
+
+.fa-angle-right {
+  font-size: 30px;
+  background-color: #5a31fc;
+  color: #ffffff;
+  padding: 10px 18px;
+  border-radius: 50%;
+  position: absolute;
+  right: 30px;
+  bottom: 100px;
+}
+
+.fa-angle-right:hover {
+  cursor: pointer;
+  animation: zoom 200ms ease 1 forwards;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+.card-active {
+  flex-grow: 1;
+  padding: 35px 20px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #e1e1e1;
+}
+
+.card-active:hover {
+  cursor: pointer;
+  animation: zoom-card 200ms ease 1 forwards;
+}
+
+@keyframes zoom-card {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.03);
+  }
+}
+
+.card {
+  flex-grow: 1;
+  padding: 35px 20px;
+  background-color: transparent;
+}
+
+.card-logo {
+  margin-bottom: 15px;
+}
+
+.card-head {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.card-body {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.card-head-active {
+  color: #5a31fc;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.blog-heading {
+  margin-left: 60px;
+  margin-top: 80px;
+  font-size: 18px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.blog-heading span {
+  margin-right: 100px;
+  color: #5a31fc;
+  cursor: pointer;
+}
+
+.blog-cards {
+  margin-left: 60px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+.blog-card {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.blog-card:hover {
+  cursor: pointer;
+  animation: zoom-card 200ms ease 1 forwards;
+}
+
+.blog-content {
+  background-color: #ffffff;
+  padding: 30px 55px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 0 0 10px #e1e1e1;
+  height: 227px;
+}
+
+.blog-content h6 {
+  color: #5a31fc;
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+.blog-content small {
+  font-weight: 600;
+  display: block;
+  margin-top: 15px;
+  line-height: 1.6;
+}
+
+.blog-bottom {
+  position: absolute;
+  left: 300px;
+  bottom: -15px;
+}
+
+div.blog-author {
+  position: absolute;
+  left: 370px;
+  bottom: 15px;
+  font-size: 14px;
+}
+
+.faq-section {
+  margin-top: 80px;
+  background-color: #e0e8f0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 324px;
+}
+
+.faq-content {
+  margin-left: 60px;
+}
+
+.faq-content h2 {
+  margin-top: 30px;
+  font-size: 33px;
+}
+
+.faq-content h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 24px;
+}
+
+.faq-content h2 + h4 {
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.faq-content button {
+  margin-top: 15px;
+  background-color: #5a31fc;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 7px 18px;
+  border: none;
+  border-radius: 5px;
+}
+
+.faq-content button:hover {
+  cursor: pointer;
+  animation: zoom 200ms ease 1 forwards;
+}
+
+.download-section {
+  height: 40vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.download-content {
+  margin-left: 60px;
+}
+
+.download-email {
+  margin-right: 60px;
+}
+
+.download-content span {
+  font-weight: 400;
+}
+
+.download-email input {
+  width: 35vw;
+  background-color: #e0e8f0;
+  border: none;
+  border-radius: 35px;
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.download-email form {
+  position: relative;
+}
+
+.download-email button {
+  position: absolute;
+  top: 4px;
+  right: 3px;
+  background-color: #5a31fc;
+  color: #ffffff;
+  border: none;
+  border-radius: 35px;
+  padding: 9px 22px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.footer-section {
+  height: 35vh;
+  background-color: #3400ff;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left {
+  margin-left: 60px;
+}
+
+.footer-section > .footer-right {
+  margin-right: 60px;
+}
+
+.footer-logo {
+  cursor: pointer;
+}
+
+.list,
+.logos-list {
+  list-style: none;
+}
+
+.list-items {
+  font-size: 14px;
+  margin-top: 15px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.list .list-items {
+  margin-right: 30px;
+}
+
+.list :first-child {
+  color: #d1cdcd;
+}
+
+.list :nth-child(2)::after,
+.list :nth-child(3)::after,
+.list :nth-child(4)::after {
+  content: "";
+  display: inline-block;
+  height: 12px;
+  width: 1px;
+  background-color: #ffffff;
+  position: relative;
+  right: -15px;
+  top: 1.5px;
+}
+
+.logos-list .list-items {
+  margin-left: 30px;
+}
+
+.logos-list :nth-child(1)::after,
+.logos-list :nth-child(2)::after {
+  content: "";
+  display: inline-block;
+  height: 12px;
+  width: 1px;
+  background-color: #ffffff;
+  position: relative;
+  right: -15px;
+  top: 1.5px;
+}
+
+.footer-right > .footer-right {
+  float: right;
+}
+
+.footer-logos {
+  margin-left: 20px;
+}
+
+.footer-logos:hover {
+  cursor: pointer;
+  animation: zoom 200ms ease 1 forwards;
+}
