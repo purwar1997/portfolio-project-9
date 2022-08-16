@@ -25,4 +25,4 @@ A developer landing page created using `HTML` and `CSS`. This project is hosted 
 - How to create `cards` and add `animations` to it
 - How to create `header` and `footer` of a web page
 
-[**Live link**](https://portflio-project-9.vercel.app/) of the project.
+To view this project, [**click here**](https://portflio-project-9.vercel.app/).
