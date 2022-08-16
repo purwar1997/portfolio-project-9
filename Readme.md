@@ -16,7 +16,7 @@ A developer landing page created using `HTML` and `CSS`. This project is hosted 
 
 **Time took to complete this project :** 7 hours
 
-## What I learnt by doing this project :-
+## What I learnt by creating this project :-
 
 - How to use CSS `Flexbox` to position elements
 - How to use CSS `float` property to position elements
