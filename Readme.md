@@ -4,9 +4,8 @@
 ![CSS](https://img.shields.io/badge/-CSS-brightgreen)
 ![CSS Flexbox](https://img.shields.io/badge/CSS%20Flexbox-blue)
 ![CSS Float](https://img.shields.io/badge/CSS%20Float-orange)
-![HTML Forms](https://img.shields.io/badge/-HTML%20Forms-yellow)
-![Netlify](https://img.shields.io/badge/-Netlify-green)
-![Vercel](https://img.shields.io/badge/-Vercel-blueviolet)
+![HTML Forms](https://img.shields.io/badge/-HTML%20Forms-green)
+![Responsive](https://img.shields.io/badge/-Responsive-blueviolet)
 
 ## Description
 
@@ -25,4 +24,4 @@ A developer landing page created using `HTML` and `CSS`. This project is hosted 
 - How to create `cards` and add `animations` to it
 - How to create `header` and `footer` of a web page
 
-### [**Live link**](https://portfolio-project-9.vercel.app/) of the project
+### [**Live link**](https://portfolio-project-9.vercel.app/) of the project.

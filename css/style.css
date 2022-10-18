@@ -28,10 +28,10 @@ nav {
 }
 
 .nav-item {
+  margin: 0 12px;
   font-size: 18px;
   color: #ffffff;
   cursor: pointer;
-  margin: 0 12px;
 }
 
 .nav-item-active {
@@ -41,12 +41,13 @@ nav {
   font-weight: 600;
   margin: 0 10px;
   padding: 5px 12px;
-  border-radius: 5px;
+  border-radius: 4px;
+  transition: opacity 200ms ease;
 }
 
 .nav-item-active:hover {
   cursor: pointer;
-  background-color: #ffffffed;
+  opacity: 0.9;
 }
 
 .logo {
@@ -60,15 +61,17 @@ nav {
   margin-top: 60px;
   margin-left: 60px;
   color: #ffffff;
-  line-height: 1.7;
+  line-height: 1.6;
 }
 
 .header-text h2 {
-  font-size: 34px;
+  font-size: 35px;
+  font-weight: 600;
 }
 
 .header-text p {
-  margin-top: 5px;
+  margin-top: 10px;
+  font-size: 17px;
 }
 
 .header-image {
@@ -77,17 +80,15 @@ nav {
 
 .companies {
   margin-top: 25px;
-  margin-left: 60px;
+  margin-left: 70px;
 }
 
 .company-items {
+  margin-right: 80px;
   text-decoration: none;
   color: #1b1b1b;
   font-family: "Righteous";
   font-size: 22px;
-  font-weight: bold;
-  margin-right: 90px;
-  cursor: pointer;
 }
 
 .api {
@@ -95,10 +96,9 @@ nav {
 }
 
 .api-heading {
-  font-size: 35px;
-  font-weight: 800;
   margin-left: 60px;
   margin-top: 80px;
+  font-size: 35px;
 }
 
 .cards {
@@ -106,54 +106,39 @@ nav {
   margin-top: 40px;
   display: flex;
   flex-direction: row;
+  gap: 10px;
   width: 90%;
 }
 
 .fa-angle-right {
-  font-size: 30px;
-  background-color: #5a31fc;
+  font-size: 28px;
   color: #ffffff;
-  padding: 10px 18px;
+  background-color: #5a31fc;
+  padding: 10px 17px;
   border-radius: 50%;
   position: absolute;
   right: 30px;
   bottom: 100px;
+  transition: transform 200ms ease;
 }
 
 .fa-angle-right:hover {
   cursor: pointer;
-  animation: zoom 200ms ease 1 forwards;
-}
-
-@keyframes zoom {
-  0% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(1.1);
-  }
+  transform: scale(1.08);
 }
 
 .card-active {
   flex-grow: 1;
   padding: 35px 20px;
   background-color: #ffffff;
-  border-radius: 15px;
-  box-shadow: 0 0 10px #e1e1e1;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #e1e1e1;
+  transition: transform 200ms ease;
 }
 
 .card-active:hover {
   cursor: pointer;
-  animation: zoom-card 200ms ease 1 forwards;
-}
-
-@keyframes zoom-card {
-  0% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(1.03);
-  }
+  transform: scale(1.02);
 }
 
 .card {
@@ -167,8 +152,8 @@ nav {
 }
 
 .card-head {
-  font-weight: 600;
   font-size: 20px;
+  font-weight: 600;
 }
 
 .card-body {
@@ -178,15 +163,14 @@ nav {
 
 .card-head-active {
   color: #5a31fc;
+  font-size: 20px;
   font-weight: 600;
-  font-size: 22px;
 }
 
 .blog-heading {
   margin-left: 60px;
   margin-top: 80px;
   font-size: 18px;
-  font-weight: 700;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -194,8 +178,9 @@ nav {
 }
 
 .blog-heading span {
-  margin-right: 100px;
+  margin-right: 110px;
   color: #5a31fc;
+  font-weight: 600;
   cursor: pointer;
 }
 
@@ -207,43 +192,44 @@ nav {
 }
 
 .blog-card {
-  flex-grow: 1;
+  flex: 1;
   display: flex;
   flex-direction: row;
   position: relative;
+  transition: transform 200ms ease;
 }
 
 .blog-card:hover {
   cursor: pointer;
-  animation: zoom-card 200ms ease 1 forwards;
+  transform: scale(1.02);
 }
 
 .blog-content {
   background-color: #ffffff;
-  padding: 30px 55px;
+  padding: 30px 50px;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  box-shadow: 0 0 10px #e1e1e1;
+  box-shadow: 0 0 15px #e1e1e1;
   height: 227px;
 }
 
 .blog-content h6 {
-  color: #5a31fc;
-  font-size: 15px;
   margin-bottom: 8px;
+  font-size: 15px;
+  color: #5a31fc;
 }
 
 .blog-content small {
-  font-weight: 600;
+  margin-top: 10px;
   display: block;
-  margin-top: 15px;
+  font-weight: 600;
   line-height: 1.6;
 }
 
 .blog-bottom {
   position: absolute;
   left: 300px;
-  bottom: -15px;
+  bottom: -16px;
 }
 
 div.blog-author {
@@ -255,11 +241,11 @@ div.blog-author {
 
 .faq-section {
   margin-top: 80px;
-  background-color: #e0e8f0;
+  background-color: #e9edff;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 324px;
+  height: 350px;
 }
 
 .faq-content {
@@ -267,20 +253,20 @@ div.blog-author {
 }
 
 .faq-content h2 {
-  margin-top: 30px;
-  font-size: 33px;
+  margin-top: 35px;
+  font-size: 32px;
 }
 
 .faq-content h4 {
+  margin-top: 30px;
   font-size: 20px;
   font-weight: 600;
-  margin-top: 24px;
 }
 
 .faq-content h2 + h4 {
+  margin-top: 15px;
   font-size: 15px;
   font-weight: 400;
-  margin-top: 10px;
 }
 
 .faq-content button {
@@ -292,11 +278,16 @@ div.blog-author {
   padding: 7px 18px;
   border: none;
   border-radius: 5px;
+  transition: opacity 200ms ease;
 }
 
 .faq-content button:hover {
   cursor: pointer;
-  animation: zoom 200ms ease 1 forwards;
+  opacity: 0.85;
+}
+
+.faq-image img {
+  height: 100%;
 }
 
 .download-section {
@@ -312,26 +303,26 @@ div.blog-author {
   font-size: 18px;
 }
 
-.download-email {
-  margin-right: 60px;
-}
-
 .download-content span {
   font-weight: 400;
 }
 
+.download-email {
+  margin-right: 60px;
+}
+
+.download-email form {
+  position: relative;
+}
+
 .download-email input {
   width: 35vw;
-  background-color: #e0e8f0;
+  background-color: #e9edff;
   border: none;
   border-radius: 35px;
   padding: 12px 25px;
   font-size: 16px;
   font-weight: 600;
-}
-
-.download-email form {
-  position: relative;
 }
 
 .download-email button {
@@ -346,7 +337,12 @@ div.blog-author {
   font-size: 15px;
   font-weight: 600;
   text-transform: uppercase;
+  transition: opacity 200ms ease;
+}
+
+.download-email button:hover {
   cursor: pointer;
+  opacity: 0.85;
 }
 
 .footer-section {
@@ -373,12 +369,12 @@ div.blog-author {
 
 .list,
 .logos-list {
-  list-style: none;
+  list-style-type: none;
 }
 
 .list-items {
-  font-size: 14px;
   margin-top: 15px;
+  font-size: 14px;
   display: inline-block;
   cursor: pointer;
 }
@@ -425,10 +421,11 @@ div.blog-author {
 }
 
 .footer-logos {
-  margin-left: 20px;
+  margin-left: 15px;
+  transition: transform 200ms ease;
 }
 
 .footer-logos:hover {
   cursor: pointer;
-  animation: zoom 200ms ease 1 forwards;
+  transform: scale(1.1);
 }
