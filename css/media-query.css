@@ -1,6 +1,6 @@
 @media (max-width: 1200px) {
   header {
-    height: 450px;
+    height: auto;
   }
 
   .header-image {
@@ -11,7 +11,8 @@
     float: none;
     text-align: center;
     margin-left: 0;
-    padding: 0px 20px;
+    margin-top: 0;
+    padding: 40px 20px 60px 20px;
   }
 
   .api-heading {

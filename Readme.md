@@ -9,7 +9,7 @@
 
 ## Description
 
-A developer landing page created using `HTML` and `CSS`. This project is hosted on both `Netlify` and `Vercel`.
+This project is a developer landing page created using HTML and CSS. It is responsive for both mobile and tablet screens.
 
 **Created By :** Shubham Purwar
 
@@ -17,11 +17,13 @@ A developer landing page created using `HTML` and `CSS`. This project is hosted 
 
 ## What I learnt by creating this project :-
 
-- How to use CSS `Flexbox` to position elements
-- How to use CSS `float` property to position elements
+- How to use CSS `Flexbox` and `float` property to position elements
 - How to use CSS `::after` selector
-- How to create HTML `forms` and design it
-- How to create `cards` and add `animations` to it
+- How to create HTML `forms` and `cards`
 - How to create `header` and `footer` of a web page
+
+### Preview of the project :-
+
+![preview](<./previews/Screenshot%20(117).png>)
 
 ### [**Live link**](https://portfolio-project-9.vercel.app/) of the project.
