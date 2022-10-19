@@ -184,8 +184,9 @@
   .blog-heading h1 {
     font-size: 30px;
   }
+
   .faq-section {
-    height: 400px;
+    height: 410px;
   }
 
   .faq-content > :nth-child(3) {
