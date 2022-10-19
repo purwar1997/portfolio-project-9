@@ -161,7 +161,7 @@ nav {
 }
 
 .blog-heading span {
-  margin-right: 110px;
+  margin-right: 120px;
   color: #5a31fc;
   font-weight: 600;
   cursor: pointer;
@@ -269,7 +269,7 @@ div.blog-author {
 }
 
 .download-section {
-  height: 40vh;
+  height: 250px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -324,7 +324,7 @@ div.blog-author {
 }
 
 .footer-section {
-  height: 35vh;
+  height: 250px;
   background-color: #3400ff;
   color: #ffffff;
   display: flex;
