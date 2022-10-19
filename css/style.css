@@ -24,7 +24,7 @@ header {
 nav {
   float: right;
   margin-right: 50px;
-  margin-top: 40px;
+  padding-top: 40px;
 }
 
 .nav-item {
@@ -80,15 +80,16 @@ nav {
 
 .companies {
   margin-top: 25px;
-  margin-left: 70px;
+  display: flex;
 }
 
 .company-items {
-  margin-right: 80px;
+  flex: 1;
   text-decoration: none;
   color: #1b1b1b;
   font-family: "Righteous";
   font-size: 22px;
+  text-align: center;
 }
 
 .api {
@@ -102,33 +103,15 @@ nav {
 }
 
 .cards {
-  margin-left: 60px;
   margin-top: 40px;
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  width: 90%;
-}
-
-.fa-angle-right {
-  font-size: 28px;
-  color: #ffffff;
-  background-color: #5a31fc;
-  padding: 10px 17px;
-  border-radius: 50%;
-  position: absolute;
-  right: 30px;
-  bottom: 100px;
-  transition: transform 200ms ease;
-}
-
-.fa-angle-right:hover {
-  cursor: pointer;
-  transform: scale(1.08);
+  margin-left: 60px;
+  margin-right: 60px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .card-active {
-  flex-grow: 1;
+  width: 190px;
   padding: 35px 20px;
   background-color: #ffffff;
   border-radius: 10px;
@@ -142,7 +125,7 @@ nav {
 }
 
 .card {
-  flex-grow: 1;
+  width: 190px;
   padding: 35px 20px;
   background-color: transparent;
 }
@@ -187,30 +170,24 @@ nav {
 .blog-cards {
   margin-left: 60px;
   margin-top: 40px;
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .blog-card {
-  flex: 1;
   display: flex;
   flex-direction: row;
   position: relative;
-  transition: transform 200ms ease;
-}
-
-.blog-card:hover {
   cursor: pointer;
-  transform: scale(1.02);
 }
 
 .blog-content {
+  height: 227px;
   background-color: #ffffff;
   padding: 30px 50px;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   box-shadow: 0 0 15px #e1e1e1;
-  height: 227px;
 }
 
 .blog-content h6 {
@@ -245,11 +222,12 @@ div.blog-author {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 40px;
   height: 350px;
 }
 
 .faq-content {
-  margin-left: 60px;
+  padding-left: 60px;
 }
 
 .faq-content h2 {
@@ -316,7 +294,7 @@ div.blog-author {
 }
 
 .download-email input {
-  width: 35vw;
+  width: 420px;
   background-color: #e9edff;
   border: none;
   border-radius: 35px;
@@ -367,23 +345,19 @@ div.blog-author {
   cursor: pointer;
 }
 
-.list,
-.logos-list {
+.list {
+  margin-top: 15px;
   list-style-type: none;
+  display: flex;
+  gap: 30px;
 }
 
 .list-items {
-  margin-top: 15px;
   font-size: 14px;
-  display: inline-block;
   cursor: pointer;
 }
 
-.list .list-items {
-  margin-right: 30px;
-}
-
-.list :first-child {
+.list :nth-child(1) {
   color: #d1cdcd;
 }
 
@@ -400,8 +374,31 @@ div.blog-author {
   top: 1.5px;
 }
 
-.logos-list .list-items {
-  margin-left: 30px;
+.footer-section > .footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.footer-right > .footer-right {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-logos {
+  transition: transform 200ms ease;
+}
+
+.footer-logos:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.logos-list {
+  margin-top: 20px;
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
 }
 
 .logos-list :nth-child(1)::after,
@@ -414,18 +411,4 @@ div.blog-author {
   position: relative;
   right: -15px;
   top: 1.5px;
-}
-
-.footer-right > .footer-right {
-  float: right;
-}
-
-.footer-logos {
-  margin-left: 15px;
-  transition: transform 200ms ease;
-}
-
-.footer-logos:hover {
-  cursor: pointer;
-  transform: scale(1.1);
 }

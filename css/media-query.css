@@ -1,0 +1,210 @@
+@media (max-width: 1200px) {
+  header {
+    height: 450px;
+  }
+
+  .header-image {
+    display: none;
+  }
+
+  .header-text {
+    float: none;
+    text-align: center;
+    margin-left: 0;
+    padding: 0px 20px;
+  }
+
+  .api-heading {
+    margin-left: 0px;
+    padding: 0px 20px;
+    text-align: center;
+  }
+
+  .cards {
+    margin-left: 30px;
+    margin-right: 30px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .cards > div {
+    justify-self: center;
+  }
+
+  .cards > div:last-child {
+    display: none;
+  }
+
+  .blog-heading {
+    margin-left: 0px;
+    justify-content: center;
+  }
+
+  .blog-heading h1 {
+    text-align: center;
+  }
+
+  .blog-heading span {
+    display: none;
+  }
+
+  .blog-cards {
+    margin-left: 0px;
+    padding: 0px 20px;
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .blog-card {
+    justify-self: center;
+  }
+
+  .faq-section {
+    padding: 0px 20px;
+    justify-content: center;
+  }
+
+  .faq-content {
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  .faq-image {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .download-section {
+    padding: 0px 30px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .download-content {
+    margin-left: 0px;
+  }
+
+  .download-email {
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 930px) {
+  .logo {
+    display: none;
+  }
+
+  nav {
+    float: none;
+    text-align: center;
+    margin-right: 0px;
+  }
+
+  nav svg {
+    display: none;
+  }
+
+  .footer-section {
+    padding: 30px 20px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .footer-left {
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .footer-section > .footer-right {
+    margin-right: 0px;
+    align-items: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .blog-card {
+    flex-direction: column;
+    background-color: white;
+    border-top-left-radius: 71px;
+  }
+
+  .blog-image {
+    flex: 1;
+    width: 370px;
+  }
+
+  .blog-image img {
+    width: 100%;
+  }
+
+  .blog-content {
+    flex: 1;
+    box-shadow: none;
+    padding-bottom: 50px;
+  }
+
+  .blog-bottom,
+  .blog-author {
+    display: none;
+  }
+}
+
+@media (max-width: 540px) {
+  .nav-item {
+    font-size: 16px;
+  }
+
+  .nav-item-active {
+    display: none;
+  }
+
+  .header-text h2 {
+    font-size: 30px;
+  }
+
+  .company-items {
+    font-size: 18px;
+  }
+
+  .api-heading {
+    font-size: 30px;
+  }
+
+  .blog-heading h1 {
+    font-size: 30px;
+  }
+  .faq-section {
+    height: 400px;
+  }
+
+  .faq-content > :nth-child(3) {
+    font-size: 18px;
+  }
+
+  .download-content h1 {
+    font-size: 30px;
+  }
+
+  .download-email input {
+    width: 330px;
+    font-size: 14px;
+  }
+
+  .download-email button {
+    font-size: 14px;
+  }
+
+  .list :nth-child(1) {
+    display: none;
+  }
+}
