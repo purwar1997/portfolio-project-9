@@ -79,10 +79,10 @@
   }
 
   .download-section {
-    padding: 0px 40px;
+    padding: 0px 50px;
     flex-direction: column;
     justify-content: center;
-    gap: 30px;
+    gap: 25px;
   }
 
   .download-content {
@@ -191,6 +191,7 @@
   }
 
   .download-section {
+    height: 300px;
     align-items: stretch;
   }
 
