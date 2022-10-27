@@ -136,6 +136,10 @@
     grid-template-columns: 1fr;
   }
 
+  .cards div:last-child {
+    display: block;
+  }
+
   .blog-card {
     flex-direction: column;
     background-color: white;
@@ -218,5 +222,11 @@
 
   .list :nth-child(1) {
     display: none;
+  }
+}
+
+@media (max-width: 420px) {
+  .blog-image {
+    width: 320px;
   }
 }
