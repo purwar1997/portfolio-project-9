@@ -79,7 +79,7 @@
   }
 
   .download-section {
-    padding: 0px 30px;
+    padding: 0px 40px;
     flex-direction: column;
     justify-content: center;
     gap: 30px;
@@ -190,17 +190,29 @@
     font-size: 30px;
   }
 
-  /* .faq-content > :nth-child(3) {
-    font-size: 18px;
-  } */
+  .download-section {
+    align-items: stretch;
+  }
 
-  .download-email input {
-    width: 330px;
-    font-size: 14px;
+  .download-content h1 {
+    text-align: center;
+  }
+
+  .download-email form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .download-email form * {
+    width: 100%;
   }
 
   .download-email button {
-    font-size: 14px;
+    position: static;
+    padding-top: 12px;
+    padding-bottom: 12px;
   }
 
   .list :nth-child(1) {
