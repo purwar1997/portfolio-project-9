@@ -53,6 +53,7 @@ nav {
 .logo {
   margin-top: 50px;
   margin-left: 60px;
+  width: 120px;
   cursor: pointer;
 }
 
@@ -105,9 +106,9 @@ nav {
 .cards {
   margin-top: 40px;
   margin-left: 60px;
-  margin-right: 60px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
 }
 
 .card-active {
@@ -151,8 +152,7 @@ nav {
 }
 
 .blog-heading {
-  margin-left: 60px;
-  margin-top: 80px;
+  margin: 80px 60px 0px 60px;
   font-size: 18px;
   display: flex;
   flex-direction: row;
@@ -161,15 +161,15 @@ nav {
 }
 
 .blog-heading span {
-  margin-right: 120px;
+  margin-right: 60px;
   color: #5a31fc;
   font-weight: 600;
   cursor: pointer;
 }
 
 .blog-cards {
-  margin-left: 60px;
   margin-top: 40px;
+  margin-left: 60px;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -181,10 +181,14 @@ nav {
   cursor: pointer;
 }
 
+.blog-image img:last-child {
+  display: none;
+}
+
 .blog-content {
   height: 227px;
   background-color: #ffffff;
-  padding: 30px 50px;
+  padding: 30px 45px;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   box-shadow: 0 0 15px #e1e1e1;
@@ -223,20 +227,18 @@ div.blog-author {
   flex-direction: row;
   justify-content: space-between;
   gap: 40px;
-  height: 350px;
 }
 
 .faq-content {
-  padding-left: 60px;
+  padding: 40px 0px 40px 60px;
 }
 
 .faq-content h2 {
-  margin-top: 35px;
   font-size: 32px;
 }
 
 .faq-content h4 {
-  margin-top: 30px;
+  margin-top: 25px;
   font-size: 20px;
   font-weight: 600;
 }
@@ -265,6 +267,7 @@ div.blog-author {
 }
 
 .faq-image img {
+  width: 100%;
   height: 100%;
 }
 
@@ -342,6 +345,7 @@ div.blog-author {
 }
 
 .footer-logo {
+  width: 110px;
   cursor: pointer;
 }
 
