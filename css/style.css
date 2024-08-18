@@ -37,10 +37,10 @@ nav {
 .nav-item-active {
   background-color: #ffffff;
   color: #5a31fc;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 600;
   margin: 0 10px;
-  padding: 5px 12px;
+  padding: 6px 12px;
   border-radius: 4px;
   transition: opacity 200ms ease;
 }
