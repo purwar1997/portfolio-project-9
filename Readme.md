@@ -1,21 +1,21 @@
 # Portfolio Project 9
 
-![HTML](https://img.shields.io/badge/-HTML-red)
-![CSS](https://img.shields.io/badge/-CSS-brightgreen)
+![HTML5](https://img.shields.io/badge/-HTML5-red)
+![CSS3](https://img.shields.io/badge/-CSS3-green)
 ![Responsive](https://img.shields.io/badge/-Responsive-blueviolet)
 
 ## Description
 
-This project is a home page for a company that provides IT services. It is created using HTML and CSS and is responsive for screens of various sizes.
+This project is a landing page for an IT business. It is built using HTML and CSS and is responsive for both mobile and tablet screens.
 
-### Learnings from this project :-
+### Learnings from this project -
 
-- How to use CSS `Flexbox` and `float` property to position elements
-- How to use CSS `::after` selector
-- How to create HTML `forms` and `cards`
-- How to create `header` and `footer` of a web page
+- How to use CSS `float` property to position elements
+- How to use CSS psuedo-selectors like `::after`
+- How to create and style components like `forms` and `cards`
+- How to create `header` and `footer` of a webpage
 
-### Preview of the project :-
+### Preview of the project 
 
 ![preview](<./previews/Screenshot%20(117).png>)
 
